@@ -24,21 +24,10 @@ pip install -e .
 from anpseisearch import SeiRegisterSearcher
 
 # Criar instância do pesquisador
-# Criar instância do pesquisador
 searcher = SeiRegisterSearcher()
 
 # Definir filtros
-# Definir filtros
 filters = {
-    "numero_protocolo_sei": "5288361",
-    "texto_pesquisa": "Fiscalização",
-    "incluir_processos": True,
-    "incluir_documentos_gerados": False,
-    "incluir_documentos_recebidos": False,
-    "tipo_processo": "Aquisição de Bens e Serviços: Licitação",  # precisa ser um valor válido
-    "tipo_documento": "Acordo de Cooperação Técnica",             # precisa ser um valor válido
-    "data_inicio": "2025-09-05",
-    "data_fim": "2025-09-07",
     "numero_protocolo_sei": "5288361",
     "texto_pesquisa": "Fiscalização",
     "incluir_processos": True,
@@ -53,16 +42,9 @@ filters = {
 # Aplicar filtros
 searcher.set_filters(filters)
 
-# Aplicar filtros
-searcher.set_filters(filters)
-
-# Executar pesquisa
-resultados = searcher.execute_search(page=0, rows_per_page=50)
 # Executar pesquisa
 resultados = searcher.execute_search(page=0, rows_per_page=50)
 
-for r in resultados:
-    print(r)
 for r in resultados:
     print(r)
 ```
