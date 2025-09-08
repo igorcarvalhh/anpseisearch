@@ -1,3 +1,4 @@
+### Exemplo de uso
 ```python
 from anpseisearch import SeiRegisterSearcher
 
@@ -64,22 +65,3 @@ for reg in registers:
 |Link Processo|https://sei.anp.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ-yulaTaM4mmRLEnUJpUaCRKqJL8jA88N5XXeNCDl9-A|
 |Unidade|SFI-CNPS-CJP DF|
 |Data|06/09/2025|
-
-
-anpseisearch/
-├── __pycache__/
-├── anpseisearch/         
-│   ├── __init__.py       
-│   └── searcher.py       
-├── tests/                
-│   ├── __init__.py
-│   ├── test_miner.py
-│   └── test_utils.py
-├── venv/
-├── image.png
-├── LICENSE               
-├── pyproject.toml        
-├── README.md             
-├── requirements.txt
-├── setup.cfg             
-└── .gitignore
