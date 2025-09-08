@@ -1,0 +1,93 @@
+txtProtocoloPesquisa=5288361
+q=
+chkSinProcessos=P
+chkSinDocumentosGerados=G
+chkSinDocumentosRecebidos=R
+txtParticipante=
+hdnIdParticipante=
+txtUnidade=SFI-CNPS-CJP DF - Coordena%C3%A7%C3%A3o Regional de Julgamento de Processos de Bras%C3%ADlia
+hdnIdUnidade=110000166
+selTipoProcedimentoPesquisa=100000881
+selSeriePesquisa=328
+txtDataInicio=05/09/2025
+txtDataFim=07/09/2025
+txtInfraCaptcha=AG423T
+hdnInfraCaptcha=1
+txtNumeroDocumentoPesquisa=
+txtAssinante=
+hdnIdAssinante=
+txtDescricaoPesquisa=
+txtAssunto=
+hdnIdAssunto=
+txtSiglaUsuario1=
+txtSiglaUsuario2=
+txtSiglaUsuario3=
+txtSiglaUsuario4=
+hdnSiglasUsuarios=
+hdnSiglasUsuarios=
+hdnCId=PESQUISA_PUBLICA1757295571475
+partialfields=id_uni_ger:110000166 AND prot_pesq:*5288361* AND id_tipo_proc:100000881 AND id_serie:328 AND sta_prot:P;G;R AND (dta_ger:[2025-09-05T00:00:00Z TO 2025-09-07T00:00:00Z] OR dta_inc:[2025-09-05T00:00:00Z TO 2025-09-07T00:00:00Z])
+requiredfields=
+as_q=
+hdnFlagPesquisa=1
+
+
+
+
+txtProtocoloPesquisa=5288361
+q=Fiscaliza%C3%A7%C3%A3o
+chkSinProcessos=P
+chkSinDocumentosGerados=G
+chkSinDocumentosRecebidos=R
+txtParticipante=- Servi%C3%A7os de Eletricidade S.A.
+hdnIdParticipante=100589108
+txtUnidade=SFI-CNPS-CJP DF - Coordena%C3%A7%C3%A3o Regional de Julgamento de Processos de Bras%C3%ADlia
+hdnIdUnidade=110000166
+selTipoProcedimentoPesquisa=100000881
+selSeriePesquisa=328
+txtDataInicio=05/09/2025
+txtDataFim=07/09/2025
+txtInfraCaptcha=8D9Z98
+hdnInfraCaptcha=1
+txtNumeroDocumentoPesquisa=
+txtAssinante=
+hdnIdAssinante=
+txtDescricaoPesquisa=
+txtAssunto=
+hdnIdAssunto=
+txtSiglaUsuario1=
+txtSiglaUsuario2=
+txtSiglaUsuario3=
+txtSiglaUsuario4=
+hdnSiglasUsuarios=
+hdnSiglasUsuarios=
+hdnCId=PESQUISA_PUBLICA1757295571475
+partialfields=id_int:*100589108* AND id_uni_ger:110000166 AND prot_pesq:*5288361* AND id_tipo_proc:100000881 AND id_serie:328 AND sta_prot:P;G;R AND (dta_ger:[2025-09-05T00:00:00Z TO 2025-09-07T00:00:00Z] OR dta_inc:[2025-09-05T00:00:00Z TO 2025-09-07T00:00:00Z])
+requiredfields=
+as_q=
+hdnFlagPesquisa=1
+
+
+
+
+filtros = {
+    "numero_protocolo_sei": "5288361",
+    "texto_pesquisa": "Fiscalização",
+    "incluir_processos": True,
+    "incluir_documentos_gerados": False,
+    "incluir_documentos_recebidos": False,
+    "tipo_processo": "Aquisição de Bens e Serviços: Licitação",    # troca por id
+    "tipo_documento": "Acordo de Cooperação Técnica",              # troca por id
+    "data_inicio": "05/09/2025",
+    "data_fim": "07/09/2025",
+}
+
+# txtParticipante=- Servi%C3%A7os de Eletricidade S.A.
+# hdnIdParticipante=100589108
+
+# txtUnidade=SFI-CNPS-CJP DF - Coordena%C3%A7%C3%A3o Regional de Julgamento de Processos de Bras%C3%ADlia
+# hdnIdUnidade=110000166
+
+
+# txtInfraCaptcha=8D9Z98
+# hdnInfraCaptcha=1
