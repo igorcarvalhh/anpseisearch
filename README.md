@@ -48,8 +48,6 @@ Caso o pip não esteja instalado, siga as instruções oficiais para instalá-lo
 
 O pip é necessário porque ele permite instalar a biblioteca `anpseisearch` e suas dependências automaticamente.
 
----
-
 ## 2️⃣ Instalar a biblioteca `anpseisearch`
 
 A biblioteca pode ser instalada via PyPI
